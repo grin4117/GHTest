@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(95, 162, 245);   
+}
+h1 {
+    display: grid;
+    grid-template-rows: 100px;
+}
+.bold-text {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 10fr;
+    grid-template-rows: 100fr 100fr 100fr;
+    place-items: center;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* .container {
+    padding: 0 2em;
+}
