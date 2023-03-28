@@ -1,23 +1,35 @@
 body {
     background-color: rgb(95, 162, 245);   
 }
-h1 {
-    display: grid;
-    grid-template-rows: 100px;
-}
-.bold-text {
-    align-content: center;
+.grids {
     display: grid;
     grid-template-columns: 10fr;
-    grid-template-rows: 100fr 100fr 100fr;
+    grid-template-rows: 500fr 100fr 100fr;
     place-items: center;
+    font-family: Arial;
 }
 .attribution {
-    font-size: 11px; text-align: center; 
-    color: hsl(228, 45%, 44%); 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-size: 11px;  
+    color: hsl(228, 45%, 44%);  
+    text-align: center;
 }
 
+.first {
+    font-weight: bold;
+    font-size: large;
+}
+.second {
+    font-weight: lighter;
+    font-size: 10;   
+    color: gray;
+}
 
 /* .container {
     padding: 0 2em;
 }
+*/
